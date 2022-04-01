@@ -74,7 +74,7 @@ img.pic-1{
    
     #cartListBtn{
         position: fixed;
-        left:280px ;
+        left:80px ;
     }
 } 
 @media (max-width:500px){
@@ -84,10 +84,10 @@ img.pic-1{
         left:400px ;
     }
 } 
-@media (max-width:300px){
+/* @media (max-width:300px){
    
     #cartListBtn{
         position: fixed;
         left:200px ;
     }
-} 
+}  */
