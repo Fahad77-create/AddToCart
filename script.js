@@ -6,9 +6,6 @@ const wMenCards = document.querySelectorAll('#wmen')
 
 // for Men filter
 menBtn.addEventListener('click', e => {
-    menBtn.className = 'btn btn-primary active filter-button btn'
-    wMenBtn.className = 'btn btn-secondary  filter-button btn'
-    allBtn.className = 'btn btn-secondary filter-button all-btn'
     console.log(menCards.length)
     for (let i = 0; i < menCards.length; i++) {
         menCards[i].style.display = 'inline-block'
@@ -20,9 +17,6 @@ menBtn.addEventListener('click', e => {
 
 // for Women filter
 wMenBtn.addEventListener('click', e => {
-    menBtn.className = 'btn btn-secondary filter-button btn'
-    wMenBtn.className = 'btn btn-primary active filter-button btn'
-    allBtn.className = 'btn btn-secondary filter-button all-btn'
     console.log(menCards.length)
     for (let i = 0; i < menCards.length; i++) {
         menCards[i].style.display = 'none'
@@ -34,9 +28,9 @@ wMenBtn.addEventListener('click', e => {
 
 // for display All
 allBtn.addEventListener('click', e => {
-    menBtn.className = 'btn btn-secondary filter-button btn'
-    wMenBtn.className = 'btn btn-secondary  filter-button btn'
-    allBtn.className = 'btn btn-primary active filter-button all-btn'
+//     menBtn.className = 'btn btn-secondary filter-button btn'
+//     wMenBtn.className = 'btn btn-secondary  filter-button btn'
+//     allBtn.className = 'btn btn-primary active filter-button all-btn'
     for (let i = 0; i < menCards.length; i++) {
         menCards[i].style.display = 'inline-block'
     }
