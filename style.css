@@ -84,10 +84,10 @@ img.pic-1{
         left:400px ;
     }
 } 
-/* @media (max-width:400px){
+@media (max-width:400px){
    
     #cartListBtn{
         position: fixed;
         left:200px ;
     }
-}  */
+} 
