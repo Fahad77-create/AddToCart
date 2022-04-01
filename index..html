@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ------------Cards link----------- -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!-- ---------CSS link----------- -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/ff14549a76.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>eCommerce</title>
+</head>
+
+<body>
+    <section id="cards-2">
+        <div class="container">
+            <h1 align="center" style="font-weight: bold; font-family:sans-serif; margin-top:80px; font-size:4rem ;">
+                CARDS FILTER</h1>
+            <hr align="left" style="width: 70%;">
+            <br>
+            <div>
+                <button class="btn btn-primary active filter-button all-btn" data-filter="todo" id="allBtn">All</button>
+                <button class="btn btn-secondary  filter-button btn" data-filter="boys" id="menBtn">Men</button>
+                <button class="btn btn-secondary filter-button btn" data-filter="girls" id="womenBtn">Women</button>
+
+                <hr align="left" style="width: 30%;">
+                <div class="row pt-5 py-2 gy-5 gx-5">
+
+                    <div class="col-md-4 col-xs-6 thumb filter boys" id="men">
+                        <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                            data-image="https://images.pexels.com/photos/50631/pexels-photo-50631.jpeg?cs=srgb&dl=aerial-bridge-buildings-50631.jpg&fm=jpg"
+                            data-target="#image-gallery">
+                            <div class="product-grid3">
+                                <div class="product-image3">
+                                    <a class="product" id="pic">
+                                        <img class="pic-1" style="height:34vw;" src="./assets/727845136.jpeg.webp">
+                                    </a>
+                                    <a class="product">
+                                        <img class="pic-2" style="height:34vw;" src="./assets/727845136.jpeg.webp">
+                                    </a>
+                                    <ul class="social">
+                                        <li data-bs-toggle="modal" data-bs-target="#exampleModal" id="cart"><a><i
+                                                    class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                    <span class="product-new-label">New</span>
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="title" id="name"><a style="text-decoration:none; color:black;">Men's
+                                            Blazer</a></h3>
+                                    <div class="price">
+                                        <span>$75.00</span>
+                                    </div>
+                                    <div id="cost" style="font-weight: bold;">
+                                        $63.50
+
+                                    </div>
+                                    <ul class="rating" id="stars">
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star disable"></li>
+                                        <li class="fa fa-star disable"></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 col-xs-6 thumb filter girls" id="wmen">
+                        <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                            data-image="https://images.pexels.com/photos/50631/pexels-photo-50631.jpeg?cs=srgb&dl=aerial-bridge-buildings-50631.jpg&fm=jpg"
+                            data-target="#image-gallery">
+                            <div class="product-grid3">
+                                <div class="product-image3">
+                                    <a class="product" id="pic">
+                                        <img class="pic-1" style="height:34vw;" src="./assets/girl.jpg">
+                                    </a>
+                                    <a class="product">
+                                        <img class="pic-2" style="height: 34vw;" src="./assets/girl.jpg">
+                                    </a>
+                                    <ul class="social">
+                                        <li data-bs-toggle="modal" data-bs-target="#exampleModal" id="cart"><a><i
+                                                    class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                    <span class="product-new-label">New</span>
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="title" id="name"><a style="text-decoration: none; color:#000;">Women's
+                                            <br>
+                                            Designer Top</a></h3>
+                                    <div class="price">
+                                        <span>$65.00</span>
+                                    </div>
+                                    <div id="cost" style="font-weight: bold;">
+                                        $43.50
+                                    </div>
+                                    <ul class="rating" id="stars">
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star disable"></i></li>
+                                        <li><i class="fa fa-star disable"></i></li>
+                                        <!-- <li class="fa fa-star"></li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 col-xs-6 thumb filter boys" id="men">
+                        <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                            data-image="https://images.pexels.com/photos/50631/pexels-photo-50631.jpeg?cs=srgb&dl=aerial-bridge-buildings-50631.jpg&fm=jpg"
+                            data-target="#image-gallery">
+                            <div class="product-grid3">
+                                <div class="product-image3">
+                                    <a class="product" id="pic">
+                                        <img class="pic-1" style="height:34vw;" src="./assets/727845136.jpeg.webp">
+                                    </a>
+                                    <a class="product">
+                                        <img class="pic-2" style="height:34vw;" src="./assets/727845136.jpeg.webp">
+                                    </a>
+                                    <ul class="social">
+                                        <li data-bs-toggle="modal" data-bs-target="#exampleModal" id="cart"><a><i
+                                                    class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                    <span class="product-new-label">New</span>
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="title" id="name"><a style="text-decoration:none; color:black;">Men's
+                                            Blazer</a></h3>
+                                    <div class="price">
+                                        <span>$75.00</span>
+                                    </div>
+                                    <div id="cost" style="font-weight: bold;">
+                                        $63.50
+
+                                    </div>
+                                    <ul class="rating" id="stars">
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star disable"></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </a>
+                    </div>
+                    <!-- ============ -->
+                    <div class="col-md-4 col-xs-6 thumb filter girls" id="wmen">
+                        <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                            data-image="https://images.pexels.com/photos/50631/pexels-photo-50631.jpeg?cs=srgb&dl=aerial-bridge-buildings-50631.jpg&fm=jpg"
+                            data-target="#image-gallery">
+                            <div class="product-grid3">
+                                <div class="product-image3">
+                                    <a class="product" id="pic">
+                                        <img class="pic-1" style="height:34vw ;" src="./assets/female-model2.jpg">
+                                    </a>
+                                    <a class="product">
+                                        <img class="pic-2" style="height: 34vw;" src="./assets/female-model2.jpg">
+                                    </a>
+                                    <ul class="social">
+                                        <li data-bs-toggle="modal" data-bs-target="#exampleModal" id="cart"><a><i
+                                                    class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                    <span class="product-new-label">New</span>
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="title" id="name"><a style="text-decoration: none; color:#000;">Women's
+                                            Hat</a></h3>
+                                    <div class="price">
+                                        <span>$30.00</span>
+                                    </div>
+                                    <div id="cost" style="font-weight: bold;">
+                                        $24.30
+                                    </div>
+                                    <ul class="rating" id="stars">
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star disable"></i></li>
+                                        <li><i class="fa fa-star disable"></i></li>
+                                        <li><i class="fa fa-star disable"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 col-xs-6 thumb filter boys" id="men">
+                        <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                            data-image="https://images.pexels.com/photos/50631/pexels-photo-50631.jpeg?cs=srgb&dl=aerial-bridge-buildings-50631.jpg&fm=jpg"
+                            data-target="#image-gallery">
+                            <div class="product-grid3">
+                                <div class="product-image3">
+                                    <a class="product" id="pic">
+                                        <img class="pic-1" style="height:34vw ;" src="./assets/male-model2.jpg">
+                                    </a>
+                                    <a class="product">
+                                        <img class="pic-2" style="height:34vw ;" src="./assets/male-model2.jpg">
+                                    </a>
+                                    <ul class="social">
+                                        <li data-bs-toggle="modal" data-bs-target="#exampleModal" id="cart"><a><i
+                                                    class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                    <span class="product-new-label">New</span>
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="title" id="name"><a style="text-decoration:none; color:black;">Men's
+                                            T-shirt</a></h3>
+                                    <div class="price">
+                                        <span>$55.00</span>
+                                    </div>
+                                    <div id="cost" style="font-weight: bold;">
+                                        $40.50
+                                    </div>
+                                    <ul class="rating" id="stars">
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star disable"></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 col-xs-6 thumb filter girls" id="wmen">
+                        <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                            data-image="https://images.pexels.com/photos/50631/pexels-photo-50631.jpeg?cs=srgb&dl=aerial-bridge-buildings-50631.jpg&fm=jpg"
+                            data-target="#image-gallery">
+                            <div class="product-grid3">
+                                <div class="product-image3">
+                                    <a class="product" id="pic">
+                                        <img class="pic-1" style="height:34vw ;" src="./assets/female-model2.jpg">
+                                    </a>
+                                    <a class="product">
+                                        <img class="pic-2" style="height: 34vw;" src="./assets/female-model2.jpg">
+                                    </a>
+                                    <ul class="social">
+                                        <li data-bs-toggle="modal" data-bs-target="#exampleModal" id="cart"><a><i
+                                                    class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                    <span class="product-new-label">New</span>
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="title" id="name"><a style="text-decoration: none; color:#000;">Women's
+                                            Hat</a></h3>
+                                    <div class="price">
+                                        <span>$30.00</span>
+                                    </div>
+                                    <div id="cost" style="font-weight: bold;">
+                                        $24.30
+                                    </div>
+                                    <ul class="rating" id="stars">
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star disable"></i></li>
+                                        <li><i class="fa fa-star disable"></i></li>
+                                        <li><i class="fa fa-star disable"></i></li>
+                                        <!-- <li class="fa fa-star"></li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- ============ -->
+                    <div class="col-md-4 col-xs-6 thumb filter boys" id="men">
+                        <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                            data-image="https://images.pexels.com/photos/50631/pexels-photo-50631.jpeg?cs=srgb&dl=aerial-bridge-buildings-50631.jpg&fm=jpg"
+                            data-target="#image-gallery">
+                            <div class="product-grid3">
+                                <div class="product-image3">
+                                    <a class="product" id="pic">
+                                        <img class="pic-1" style="height:34vw ;" src="./assets/male-model2.jpg">
+                                    </a>
+                                    <a class="product">
+                                        <img class="pic-2" style="height:34vw ;" src="./assets/male-model2.jpg">
+                                    </a>
+                                    <ul class="social">
+                                        <li data-bs-toggle="modal" data-bs-target="#exampleModal" id="cart"><a><i
+                                                    class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                    <span class="product-new-label">New</span>
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="title" id="name"><a style="text-decoration:none; color:black;">Men's
+                                            Blazer</a></h3>
+                                    <div class="price">
+                                        <span>$75.00</span>
+                                    </div>
+                                    <div id="cost" style="font-weight: bold;">
+                                        $63.50
+
+                                    </div>
+                                    <ul class="rating" id="stars">
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star disable"></li>
+                                        <li class="fa fa-star disable"></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 col-xs-6 thumb filter girls" id="wmen">
+                        <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                            data-image="https://images.pexels.com/photos/50631/pexels-photo-50631.jpeg?cs=srgb&dl=aerial-bridge-buildings-50631.jpg&fm=jpg"
+                            data-target="#image-gallery">
+                            <div class="product-grid3">
+                                <div class="product-image3">
+                                    <a class="product" id="pic">
+                                        <img class="pic-1" style="height:34vw ;" src="./assets/girl.jpg">
+                                    </a>
+                                    <a class="product">
+                                        <img class="pic-2" style="height: 34vw;" src="./assets/girl.jpg">
+                                    </a>
+                                    <ul class="social">
+                                        <li data-bs-toggle="modal" data-bs-target="#exampleModal" id="cart"><a><i
+                                                    class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                    <span class="product-new-label">New</span>
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="title" id="name"><a style="text-decoration: none; color:#000;">Women's
+                                            <br>
+                                            Designer Top</a></h3>
+                                    <div class="price">
+                                        <span>$65.00</span>
+                                    </div>
+                                    <div id="cost" style="font-weight: bold;">
+                                        $43.50
+                                    </div>
+                                    <ul class="rating" id="stars">
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star disable"></i></li>
+                                        <li><i class="fa fa-star disable"></i></li>
+                                        <!-- <li class="fa fa-star"></li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 col-xs-6 thumb filter boys" id="men">
+                        <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                            data-image="https://images.pexels.com/photos/50631/pexels-photo-50631.jpeg?cs=srgb&dl=aerial-bridge-buildings-50631.jpg&fm=jpg"
+                            data-target="#image-gallery">
+                            <div class="product-grid3">
+                                <div class="product-image3">
+                                    <a class="product" id="pic">
+                                        <img class="pic-1" style="height:34vw;" src="./assets/727845136.jpeg.webp">
+                                    </a>
+                                    <a class="product">
+                                        <img class="pic-2" style="height:34vw;" src="./assets/727845136.jpeg.webp">
+                                    </a>
+                                    <ul class="social">
+                                        <li data-bs-toggle="modal" data-bs-target="#exampleModal" id="cart"><a><i
+                                                    class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                    <span class="product-new-label">New</span>
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="title" id="name"><a style="text-decoration:none; color:black;">Men's
+                                            Blazer</a></h3>
+                                    <div class="price">
+                                        <span>$75.00</span>
+                                    </div>
+                                    <div id="cost" style="font-weight: bold;">
+                                        $63.50
+
+                                    </div>
+                                    <ul class="rating" id="stars">
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star disable"></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </a>
+                    </div>
+
+
+                    <!-- Modal for Item list -->
+                    <button type="button" id="cartListBtn" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">
+                        <i class="fa fa-shopping-cart fa-2x" style="color:black;" aria-hidden="true"></i>
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content" id="list-modal">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">My List</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body" id="cartList">
+
+                                </div>
+                                <div class="modal-footer">
+                                    <div id="modal_foot" class="container" style="padding: 0px;"></div>
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                                        id="clearAll">Clear All</button>
+                                    <button type="button" class="btn btn-primary" id="total">Total</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Item_Modal -->
+                    <div class="modal fade" id="exampleModal" style="padding: 0px;" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content" id="modal-content" style="background-color:aliceblue; width: max-content;">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel"></h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body" style="width:max-content; background-color:cadetblue;">
+
+                                    <div class="container" id="card_Mdl" style="padding: 0px;">
+                                        <div id="demo" class="carousel slide" data-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <div class="card" style="width:fit-content; border: 1px solid rgb(71, 121, 122);" >
+                                                        <div class="row">
+                                                            <div class="col-6 col-sm-6 col-md-6" id="img">
+
+                                                            </div>
+                                                            <div class="col-6 col-sm-6 col-md-6 info" style="padding-bottom:0px;">
+                                                                <div class="row title">
+                                                                    <div class="col">
+                                                                        <h2 id="itemName"></h2>
+                                                                    </div>
+                                                                </div>
+                                                                <p>Lorem, ipsum dolor sit amet</p>
+                                                                <div style="display: block;">
+                                                                </div>
+                                                                <div class="row price"
+                                                                    style="display: inline-block; margin-left:5px ;">
+                                                                    <span>
+                                                                        <h2>Price:</h2>
+                                                                        <div class="row" id="price"
+                                                                            style="font-size: 50px; margin-left:-2px ;">
+                                                                        </div></a>
+                                                                    </span> </label> </div>
+                                                                <div class="row price"
+                                                                    style="display:block; padding: 0px 8px; padding-bottom: 30px;">
+                                                                    <span>
+                                                                        <h2
+                                                                            style="margin-top: 15px;  margin-left:7px ;">
+                                                                            Quantity:</h2><input type="number" id="num"
+                                                                            min="1" max="15"
+                                                                            style="color: black; font-size:3vw; width:100px; height: 50px; margin-left:10px; margin-top: 8px; "></a>
+                                                                    </span> </label> </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary" id="addCart">Add to
+                                                Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+<script>
+    const myModal = document.getElementById('myModal')
+    const myInput = document.getElementById('myInput')
+
+    myModal.addEventListener('shown.bs.modal', function () {
+        myInput.focus()
+    })
+</script>
+<script src="script.js"></script>
+
+</html>
