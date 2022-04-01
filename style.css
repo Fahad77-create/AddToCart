@@ -77,6 +77,9 @@ img.pic-1{
      h4{
         font-size:12px;
     }
+    h2{
+        font-size:17px;
+    }
 }
  @media (max-width:770px){
     img{
