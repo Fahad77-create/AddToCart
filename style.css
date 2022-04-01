@@ -75,7 +75,7 @@ img.pic-1{
    
     #cartListBtn{
         position: fixed;
-        left:100px ;
+        left:150px ;
     }
 } 
 @media (max-width:500px){
@@ -89,6 +89,6 @@ img.pic-1{
    
     #cartListBtn{
         position: fixed;
-        left:200px ;
+        left:250px ;
     }
 } 
