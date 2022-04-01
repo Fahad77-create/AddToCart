@@ -61,6 +61,7 @@ img.pic-1{
     }
     #modal-content{
         width:fit-content ;
+        font-size:15px;
     }
 }
  @media (max-width:770px){
@@ -70,11 +71,11 @@ img.pic-1{
         height:50vw ;
     }
 } 
-@media (max-width:390px){
+@media (max-width:300px){
    
     #cartListBtn{
         position: fixed;
-        left:80px ;
+        left:100px ;
     }
 } 
 @media (max-width:500px){
