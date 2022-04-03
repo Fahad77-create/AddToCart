@@ -89,9 +89,7 @@ img.pic-1{
     }
          #modal_2{
         width:250px !important;  
-    }
-    .Modal_2{
-        padding-left: 15% !important; 
+        text-align: left;
     }
     #row_2{
         margin:3px 10px ;
