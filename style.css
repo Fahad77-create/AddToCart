@@ -80,8 +80,18 @@ img.pic-1{
     h2{
         font-size:17px;
     }
-     #modal_2{
+}
+ @media (max-width:770px){
+    img{
+        /* display: none; */
+         image-rendering: pixelated;
+        height:50vw ;
+    }
+         #modal_2{
         width:250px !important;  
+    }
+    .Modal_2{
+        padding-left: 15% !important; 
     }
     #row_2{
         margin:3px 10px ;
@@ -92,13 +102,6 @@ img.pic-1{
     }
     #p_2{
         margin-bottom: 0px;
-    }
-}
- @media (max-width:770px){
-    img{
-        /* display: none; */
-         image-rendering: pixelated;
-        height:50vw ;
     }
 } 
 @media (max-width:300px){
