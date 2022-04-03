@@ -80,6 +80,19 @@ img.pic-1{
     h2{
         font-size:17px;
     }
+     #modal_2{
+        width:250px !important;  
+    }
+    #row_2{
+        margin:3px 10px ;
+    }
+    .image{
+        height:35vw !important ;
+        margin-bottom:5vw ;
+    }
+    #p_2{
+        margin-bottom: 0px;
+    }
 }
  @media (max-width:770px){
     img{
