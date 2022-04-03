@@ -33,17 +33,6 @@ img.pic-1{
 }
 @media only screen and (max-width:359px){.product-grid3 .rating{margin:0}
 }
-    
-#womenBtn:active{
-    background-color:#0062CC;
-}
-#allBtn:active{
-    background-color:#0062CC;
-}
-#menBtn:active{
-    background-color:#0062CC;
-}
-
 
 #cartListBtn{
     border-radius:100% ;
